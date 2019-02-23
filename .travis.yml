@@ -11,8 +11,8 @@ env:
   - MY_TARGET_MOUNT=/tell/security-analysis-plos-one-2016
 before_install:
 - env | sort
-- apt update
-- apt install -y wget > /dev/null
+- sudo apt update
+- sudo apt install -y wget > /dev/null
 - docker pull $MY_TARGET_DIST
 - docker run --name $MY_NAME -v $TRAVIS_BUILD_DIR:$MY_TARGET_MOUNT -td $MY_TARGET_DIST /bin/bash
 - docker exec -ti $MY_NAME bash -c "sudo apt update" > /dev/null
