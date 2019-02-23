@@ -1,4 +1,4 @@
-# security-analysis-plos-one-2016
+# Demo of Verification Script
 
 [![Build Status](https://travis-ci.org/tell/security-analysis-plos-one-2016.svg?branch=master)](https://travis-ci.org/tell/security-analysis-plos-one-2016)
 
