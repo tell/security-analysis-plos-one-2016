@@ -15,14 +15,14 @@ before_install:
 - sudo apt install -y wget
 - docker pull $MY_TARGET_DIST
 - docker run --name $MY_NAME -v $TRAVIS_BUILD_DIR:$MY_TARGET_MOUNT -td $MY_TARGET_DIST /bin/bash
-- docker exec -ti $MY_NAME bash -c "sudo apt update"
+# - docker exec -ti $MY_NAME bash -c "sudo apt update"
 install:
 - wget -O S1_File.txt https://ndownloader.figshare.com/files/14402309
 - wget -O S2_File.txt https://ndownloader.figshare.com/files/14402312
 - wget -O S3_File.sage https://ndownloader.figshare.com/files/14402315
 # - pwd
 # - ls -la
-- docker exec -ti $MY_NAME bash -c "sudo apt install -y make"
+# - docker exec -ti $MY_NAME bash -c "sudo apt install -y make"
 script:
 - docker exec -ti $MY_NAME bash -c "cd $MY_TARGET_MOUNT; sudo sage S3_File.sage"
 notifications:
