@@ -1,3 +1,7 @@
+S1_File.txt
+S2_File.txt
+S3_File.sage
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
