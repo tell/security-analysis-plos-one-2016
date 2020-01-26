@@ -24,7 +24,7 @@ install:
 # - ls -la
 # - docker exec -ti $MY_NAME bash -c "sudo apt install -y make"
 script:
-- docker exec -ti $MY_NAME bash -c "sage -c 'print(f\"SageMath {sage.version.version}\")'"
+- docker exec -ti $MY_NAME bash -c "sage -c 'print(f\"SageMath version {sage.version.version}\")'"
 - docker exec -ti $MY_NAME bash -c "cd $MY_TARGET_MOUNT; sudo sage S3_File.sage"
 notifications:
   on_success: change
