@@ -9,7 +9,7 @@ All results are available at [Travis CI](https://travis-ci.org/tell/security-ana
 
 When you refer our paper and this demonstration, please use a bibtex enctry below.
 ```
-@Article{PLOSONE-2019_0212310_Teruya,
+@Article{PLOSONE_0212310_Teruya,
   author =  {Tadanori Teruya},
   title =   {Security analysis of elliptic curves with embedding degree 1 proposed in PLOS ONE 2016},
   journal = {PLOS ONE},
