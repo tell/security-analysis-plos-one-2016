@@ -11,7 +11,7 @@ When you refer our paper and this demonstration, please use a bibtex enctry belo
 ```
 @Article{PLOSONE_0212310_Teruya,
   author =  {Tadanori Teruya},
-  title =   {Security analysis of elliptic curves with embedding degree 1 proposed in PLOS ONE 2016},
+  title =   {Security analysis of elliptic curves with embedding degree 1 proposed in {PLOS} {ONE} 2016},
   journal = {PLOS ONE},
   year =    {2019},
   volume =  {14},
